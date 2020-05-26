@@ -18,9 +18,9 @@ def grade(grade)
   @hash[grade]
 end
 
-def sort 
+def sort   {10 => [david,wenhao], 11=>[....]}
   @hash.each do |key,value|
-    @hash[key] = value.sort
+    @hash[key] = value.sort 
    end
 end
 end
